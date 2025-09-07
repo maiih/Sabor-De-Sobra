@@ -1,0 +1,1737 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Abril+Fatface&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(#ffffff, #C9FAAD);
+    overflow-x: hidden;
+    min-height: 200vh;
+
+}
+
+.bodydamaria {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(#ffffff, #C9FAAD);
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    font-size: 18px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.botaoPerfilNav2 {
+    display: flex;
+    gap: 10px;
+    
+}
+
+.iconPerfil {
+    text-align: left;
+}
+
+.main {
+    min-height: 250vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo img {
+    width: 118px;
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.auth-buttons .btn {
+    border-radius: 15px;
+    padding: 10px 20px;
+    background-color: #00b300;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.auth-buttons .btn:hover {
+    background-color: #008000;
+}
+
+.welcome-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.text-section h1 {
+    margin-left: 97px;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 80px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.text-section p {
+    margin-left: 85px;
+    font-size: 24px;
+    color: black;
+}
+
+.image-section {
+    position: relative;
+}
+
+.green-box {
+    width: 348px;
+    height: 290px;
+    background-color: #1D7D0F;
+    border-radius: 20px;
+    position: absolute;
+    top: 324px;
+    left: 88px;
+    z-index: 0;
+}
+
+.prato-img {
+    margin-right: 92px;
+    width: 537px;
+    position: relative;
+    z-index: 1;
+}
+
+.bagulho {
+    height: 190px;
+    position: absolute;
+    top: 86px;
+    left: 18px;
+    width: 312px;
+}
+
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-media img {
+    width: 40px;
+    height: 40px;
+}
+
+.cadastroin {
+    height: 60px;
+}
+
+.cadastroin:hover {
+    border: solid 2px;
+    border-color: #1D7D0F;
+}
+
+.formdiv2 {
+    width: 600px;
+    height: 750px;
+    background-color: white;
+    border: 5px solid #1D7D0F;
+    border-radius: 15px;
+}
+
+input::placeholder {
+    font-family: 'Abeezee', sans-serif;
+}
+
+a {
+    color: #1D7D0F;
+    text-decoration: none;
+}
+
+
+.center {
+    text-align: center;
+}
+
+
+.imgBanner {
+    margin-top: 8px;
+    width: 1600px;
+    border-radius: 35px;
+    border: 5px solid #4d2817;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divBtnInicio {
+    display: flex;
+    justify-content: space-between;
+    width: 1600px;
+    margin: 0 auto;
+}
+
+.btnInicio {
+    background-color: #491613;
+    color: white;
+    flex: 1;
+    margin: 0 10px;
+    border-radius: 20px;
+    height: 50px;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
+.input-container {
+    position: relative;
+    flex: 1;
+    margin-right: 15px;
+}
+
+.btnInicio {
+    background-color: #491613;
+    color: white;
+    flex: 1;
+    margin: 0 10px;
+    border-radius: 20px;
+    height: 50px;
+    text-align: center;
+    font-size: 18px;
+    width: 100%;
+}
+
+.btnSearch {
+    background-color: #491613;
+    color: white;
+    padding-left: 40px;
+    border: none;
+    text-align: start;
+}
+
+.btnSearch:active {
+    border: none;
+}
+
+.fa-magnifying-glass {
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+}
+
+.btnperfil {
+    position: absolute;
+    margin-right: -1550px;
+}
+
+.input-group .btn.olho {
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 67px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    border: 4px solid #491613;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    width: 350px;
+    height: 400px;
+    box-shadow: 0 4px 13px 0px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    border-radius: 8px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.card h5 {
+    font-size: 1.2em;
+    color: #8b3a62;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1em; /* Tamanho da fonte */
+    color: #333;
+    overflow: hidden;        
+    text-overflow: ellipsis; 
+    white-space: normal;      
+    height: 100px;            
+    display: -webkit-box;     
+    -webkit-box-orient: vertical; 
+    position: relative;
+    padding: 5px; /* Espaçamento interno */
+    text-align: left; /* Alinhamento do texto à esquerda */
+}
+
+.imgPerfil {
+    width: 330px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.divFormPerfil {
+    width: 600px;
+    margin-left: 150px;
+}
+
+.perfilin:hover {
+    border: solid 2px;
+    border-color: #1D7D0F;
+}
+
+.perfilin {
+    width: 100%;
+    height: 50px;
+    font-size: 17px;
+}
+
+.perfilText {
+    font-size: 20px;
+}
+
+.fa-pen-to-square {
+    cursor: grab;
+}
+
+.fa-pen-to-square:active {
+    cursor: grabbing;
+}
+
+.editFotoUser {
+    font-size: 30px;
+}
+
+.editInputUser {
+    font-size: 30px;
+}
+
+
+footer {
+    padding: 20px 0;
+    color: rgba(0, 0, 0, 0.6);
+    justify-content: space-between;
+    font-size: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 999;
+    margin-top: 10px;
+}
+
+footer a,
+footer p {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-container p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.footer-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.footer li {
+    display: inline;
+}
+
+.footer a {
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* ESTILOS PARA O CADASTRO DA RECEITA */
+.btnCadastro {
+    display: block;
+    width: 100%;
+    background-color: #00a500;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btnDelete {
+    display: block;
+    width: 100%;
+    background-color: rgb(194, 10, 10);
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btnDelete:hover {
+    background-color: red;
+}
+
+.btnCadastro:hover {
+    background-color: #007300;
+}
+
+.mainCadastro {
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.mainCadastro h1 {
+    text-align: center;
+    color: #008000;
+    margin-bottom: 30px;
+}
+
+.inputField {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #008000;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+textarea.inputField {
+    height: 150px;
+    resize: none;
+}
+
+.selectUnit {
+    padding: 10px;
+    border: 2px solid #008000;
+    border-radius: 25px;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    height: 6.1vh;
+}
+
+.fa-trash-can{
+    font-size: 40px;
+    margin-top: 0;
+}
+
+.fa-trash-can:hover{
+    color: #008000;
+    border: none;
+}
+
+.btnlixo:active, .btnlixo {
+    border: none;
+    padding: 0 0 0 5;
+
+}
+
+.add-button,
+.delete-button {
+    background-color: #008000;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.add-button:hover,
+.delete-button:hover {
+    background-color: #007300;
+}
+
+.ingredient-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.ingredient-row input {
+    width: 40%;
+    margin-right: 10px;
+}
+
+.ingredient-row .selectUnit {
+    margin-right: 10px;
+}
+
+.delete-button {
+    background-color: #333;
+    border-radius: 10px;
+}
+
+.delete-button:hover {
+    background-color: #555;
+}
+
+/* Upload de Imagem */
+.upload-img {
+    width: 100px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+
+.conteudo-principal {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilo da caixa de busca */
+.caixa-pesquisa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    border: 2px solid #A52A2A;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+}
+
+.caixa-pesquisa input {
+    width: 90%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.botao-pesquisa {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.botao-pesquisa img {
+    width: 24px;
+    height: 24px;
+}
+
+.lista-receitas {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cartao-receita {
+    display: flex;
+    align-items: flex-start;
+    border: 2px solid #A52A2A;
+    border-radius: 10px;
+    background-color: white;
+    padding: 15px;
+}
+
+.imagem-receita {
+    width: 150px;
+    height: 100px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.info-receita {
+    flex-grow: 1;
+}
+
+.titulo-receita {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0 0 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.titulo-receita .icone-receita {
+    font-size: 1.2em;
+}
+
+.descricao-receita {
+    font-size: 0.9em;
+    color: #555;
+}
+
+.dadosUserIn {
+    user-select: none;
+}
+
+#nomeUserIn:focus, #senhaUserIn:focus {
+    outline: none;
+    border: 5px solid green;
+    box-shadow: none;
+}
+
+ .rowReceitas {
+    display: flex;
+    justify-content: space-around;
+    width: 1600px;
+}
+
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 67px;
+    flex-wrap: wrap;
+}
+
+.dicas-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Duas colunas de tamanho igual */
+    gap: 20px; /* Espaço entre os cards */
+}
+
+.dica-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+.dica-titulo {
+    font-size: 1.5em;
+    color: #1D7D0F;
+    font-family: 'Abril Fatface', cursive;
+    margin-bottom: 10px;
+}
+
+.dica-descricao {
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.dica-botao {
+    align-self: flex-end;
+    background-color: #1D7D0F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.dica-botao:hover {
+    background-color: #145A0F;
+}
+
+.nav-link {
+    position: relative;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #28a745;
+    transition: width 0.3s ease-out;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+.nav-link.active::after {
+    width: 100%;
+    transform: scaleX(1);
+    transition: none;
+}
+
+
+.aInicio {
+    color: white;
+}
+
+.divCardFoto {
+    height: 210px;
+    width: 310px;
+    overflow: hidden; 
+}
+
+.divCardFoto img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.inputDisabledd {
+    background-color: white;
+}
+
+.receita-card {
+    background-color: #ffffff;
+    border: 2px solid #491613;
+    border-radius: 15px;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 4px 13px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+.receita-titulo {
+    text-align: center;
+    font-size: 24px;
+    color: #8b3a62;
+    margin-bottom: 15px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.receita-imagem img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.ingredientes-section {
+    margin-top: 15px;
+}
+
+.ingredientes-section h3 {
+    font-size: 20px;
+    color: #008000;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.ingredientes-lista {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.ingredientes-lista li {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.modo-preparo {
+    margin-top: 20px;
+}
+
+.modo-preparo h3 {
+    font-size: 20px;
+    color: #008000;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.modo-preparo p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.icone-favorito {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+}
+
+/*DAQUI PRA BAIXO É PARA A TELA DAS DICAS GERAIS*/
+
+.teste {
+    justify-content: space-around;
+}
+
+.dicas-container {
+    margin-left: 339px;
+    height: 619px;
+    display: grid;
+    grid-template-columns: 7fr 7fr;
+    gap: 45px;
+    max-width: 1281px;
+    padding-top: 40px;
+}
+
+.dica-card {
+    background-color: #fff;
+    border: 2px solid #491613;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 4px 13px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.dica-titulo {
+    font-weight: bold;
+    text-decoration-line: underline;
+    font-size: 38px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.dica-descricao {
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.dica-botao {
+    margin-top: 50px;
+    background-color: #006400;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background-color 0.3s;
+}
+
+.dica-botao:hover {
+    background-color: #004d00;
+}
+
+/* daqi pra baixo sao das imagens */
+
+.rotated {
+    transform: rotate(26deg);
+    /* faz a imagem girar */
+}
+
+
+.dica-imagem-wrapper1 {
+    position: absolute;
+    top: 301px;
+    left: 307px;
+}
+
+.dica-imagem1 {
+    width: 187px;
+    height: auto;
+}
+
+
+.dica-imagem-wrapper2 {
+    position: absolute;
+    top: 312px;
+    left: 966px;
+}
+
+.dica-imagem2 {
+    width: 187px;
+    height: auto;
+}
+
+.dica-imagem-wrapper3 {
+    position: absolute;
+    top: 570px;
+    left: 287px;
+}
+
+.dica-imagem3 {
+    width: 187px;
+    height: auto;
+}
+
+.dica-imagem-wrapper4 {
+    position: absolute;
+    top: 585px;
+    left: 948px;
+}
+
+.dica-imagem4 {
+    width: 222px;
+    height: auto;
+}
+
+
+.dica-imagem-wrapper5 {
+    position: absolute;
+    top: 804px;
+    left: 285px;
+}
+
+.dica-imagem5 {
+    width: 249px;
+    height: auto;
+}
+
+
+.dica-imagem-wrapper6 {
+    position: absolute;
+    top: 795px;
+    left: 959px;
+}
+
+.dica-imagem6 {
+    width: 226px;
+    height: auto;
+}
+
+.dica-imagem-wrapper7 {
+    position: absolute;
+    top: 1156px;
+    left: 263px;
+}
+
+.dica-imagem7 {
+    width: 249px;
+    height: auto;
+}
+
+.dica-imagem-wrapper8 {
+    position: absolute;
+    top: 1158px;
+    left: 914px;
+}
+
+.dica-imagem8 {
+    width: 249px;
+    height: auto;
+}
+
+.bodydamaria2 {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(#ffffff, #C9FAAD);
+    min-height: 145vh;
+    margin: 0;
+    padding: 0;
+}
+
+
+.aCard {
+    all: unset;
+}
+
+.aCard:hover {
+    cursor: grab;
+}
+
+.aCard:active {
+    cursor: grabbing;
+}
+
+
+/*DAQUI PRA BAIXO E AS TELAS DA RECEITA*/
+.receita-card {
+    margin-bottom: 55px;
+    
+    background-color: #ffffff;
+    border: 3px solid #1D7D0F;
+    border-radius: 15px;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 92px;
+    box-shadow: 0 4px 13px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+.receita-titulo {
+    text-align: center;
+    font-size: 24px;
+    color: #8b3a62;
+    margin-bottom: 15px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.receita-imagem {
+    position: relative; /* Para que a overlay seja posicionada em relação a esta div */
+}
+
+.receita-imagem img {
+    border-top-left-radius: 56px;
+    border-top-right-radius: 56px;
+    margin-bottom: 15px;
+}
+
+
+
+.overlay {
+    position: absolute;
+    top: 595px;
+    width: 1311px;
+    height: 20%;
+    background-color: #ffffff;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px; 
+    border-top-left-radius: 56px;
+    border-top-right-radius: 56px;
+}
+
+.icone-favorito {
+    transform: scale(1.4);
+    position: absolute;
+    top: 1263px;
+    right: 19px;
+}
+
+.ingredientes-section {
+    margin-top: 15px;
+}
+
+.ingredientes-section h3 {
+    font-size: 20px;
+    color: #008000;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.ingredientes-lista {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+     
+}
+
+.ingredientes-lista li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Garante que o nome e o valor fiquem em extremos opostos */
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.img-ingredientes {
+    width: 45px;
+    margin-right: 10px; /* Ajuste o espaço entre a imagem e o texto */
+}
+
+.ingrediente-grupo {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* Faz com que o nome ocupe o máximo de espaço disponível */
+}
+
+.ingrediente-nome {
+    color: #333;
+    font-weight: bold;
+}
+
+.ingrediente-valor {
+    color: #008000;
+    font-weight: bold;
+    text-align: right;
+    width: 100px; /* Defina a largura do valor para garantir o alinhamento */
+    text-align: end; /* Alinha o valor à direita */
+}
+
+.modo-preparo {
+    margin-top: 20px;
+}
+
+.modo-preparo h3 {
+    font-size: 20px;
+    color: #8b3a62;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.modo-preparo p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+}
+/*DAQUI PRA BAIXO É PARA A TELA DAS DICAS GERAIS*/
+
+.teste {
+    justify-content: space-around;
+}
+
+.dicas-container {
+    margin-left: 339px;
+    height: 619px;
+    display: grid;
+    grid-template-columns: 7fr 7fr;
+    gap: 45px;
+    max-width: 1281px;
+    padding-top: 40px;
+}
+
+.dica-card {
+    background-color: #fff;
+    border: 2px solid #491613;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 4px 13px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.dica-titulo {
+    font-weight: bold;
+    text-decoration-line: underline;
+    font-size: 38px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.dica-descricao {
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.dica-botao {
+    margin-top: 50px;
+    background-color: #006400;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background-color 0.3s;
+}
+
+.dica-botao:hover {
+    background-color: #004d00;
+}
+
+/* daqui pra baixo sao das imagens das dicas */
+
+.rotated {
+    transform: rotate(26deg);
+    /* faz a imagem girar */
+}
+
+
+.dica-imagem-wrapper1 {
+    position: absolute;
+    top: 301px;
+    left: 307px;
+}
+
+.dica-imagem1 {
+    width: 187px;
+    height: auto;
+}
+
+
+.dica-imagem-wrapper2 {
+    position: absolute;
+    top: 312px;
+    left: 966px;
+}
+
+.dica-imagem2 {
+    width: 187px;
+    height: auto;
+}
+
+.dica-imagem-wrapper3 {
+    position: absolute;
+    top: 570px;
+    left: 287px;
+}
+
+.dica-imagem3 {
+    width: 187px;
+    height: auto;
+}
+
+.dica-imagem-wrapper4 {
+    position: absolute;
+    top: 585px;
+    left: 948px;
+}
+
+.dica-imagem4 {
+    width: 222px;
+    height: auto;
+}
+
+
+.dica-imagem-wrapper5 {
+    position: absolute;
+    top: 804px;
+    left: 285px;
+}
+
+.dica-imagem5 {
+    width: 249px;
+    height: auto;
+}
+
+
+.dica-imagem-wrapper6 {
+    position: absolute;
+    top: 795px;
+    left: 959px;
+}
+
+.dica-imagem6 {
+    width: 226px;
+    height: auto;
+}
+
+.dica-imagem-wrapper7 {
+    position: absolute;
+    top: 1156px;
+    left: 263px;
+}
+
+.dica-imagem7 {
+    width: 249px;
+    height: auto;
+}
+
+.dica-imagem-wrapper8 {
+    position: absolute;
+    top: 1158px;
+    left: 914px;
+}
+
+.dica-imagem8 {
+    width: 249px;
+    height: auto;
+}
+
+
+/*DAQUI PRA BAIXO E AS TELA DOS INGREDIENTES */
+.ingredientes-container {
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.ingredientes-container h2 {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+#ingredientes-list {
+    margin-bottom: 20px;
+}
+
+.ingrediente-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 45px; /* Espaçamento entre os ingredientes */
+}
+.ingrediente-item input[type="text"] {
+    width: 80%;
+    margin: 0 auto;
+    padding: 14px;
+    border: 3px solid #aaa;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.ingrediente-item .excluir {
+    width: 8%;
+    padding: 14px;
+    border-radius: 82px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    font-size: 22px;
+    position: relative;
+    left: -61px;
+}
+
+#adicionar-ingrediente, #buscar-receita {
+    width: 34%;
+    padding: 11px;
+    margin: 5px;
+    border: none;
+    border-radius: 24px;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #1D7D0F;
+    transition: background-color 0.5s ease; /* Transição suave da cor de fundo */
+}
+
+#adicionar-ingrediente:hover, #buscar-receita:hover {
+    background-color: #14aa37; /* Cor de fundo quando o mouse passa por cima (verde mais escuro) */
+}
+.negro{
+    font-size: 23px;
+    font-weight: bold; 
+}
+/* DAQUI PRA BAIXO TELA DAS DICAS ESPECIFICAS */
+.dicas-card {
+    max-width: 800px; /* Ajusta a largura máxima do card */
+    margin: 20px auto; /* Centraliza o card na tela */
+    padding: 20px;
+    background-color: #ffffff;
+    border: 3px solid #1D7D0F;
+    border-radius: 15px;
+    box-shadow: 0 4px 13px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+/* Título */
+.dicas-titulo {
+    text-align: center;
+    font-size: 24px;
+    color: #8b3a62;
+    margin-bottom: 15px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+/* Imagem principal */
+.dicas-imagem {
+    position: relative;
+    text-align: center;
+}
+
+.dicas-imagem img {
+    width: 100%; /* Garante que a imagem se ajuste ao contêiner */
+    border-radius: 15px;
+}
+
+/* Overlay sobre a imagem */
+.overlay2 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.8); /* Fundo semi-transparente */
+    text-align: center;
+    padding: 10px;
+}
+
+/* Lista de ingredientes */
+.ingredientes-lista {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.ingredientes-lista li {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.img-ingredientes {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.ingrediente-grupo {
+    display: flex;
+    justify-content: space-between;
+    flex: 1; /* Expande o grupo para ocupar o espaço restante */
+}
+
+.ingrediente-nome {
+    font-weight: bold;
+    color: #333;
+}
+
+.ingrediente-valor {
+    color: #008000;
+    font-weight: bold;
+}
+
+/* Seção do modo de preparo */
+.modo-preparo {
+    margin-top: 20px;
+}
+
+.modo-preparo h3 {
+    font-size: 20px;
+    color: #8b3a62;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.modo-preparo p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+}
+.icone-toggle {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.icone-toggle:hover {
+    transform: scale(1.2);
+}
+
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    border: 2px solid #4CAF50;
+    border-radius: 25px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+    top: -15px;
+    margin: 0 auto;
+}
+
+.back-button {
+    display: inline-block;
+    color: #4CAF50;
+    text-decoration: none;
+    font-size: 24px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    transform: scale(1.4);
+    
+}
+
+h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.info-section {
+    background-color: #ffffff;
+    padding: 38px;
+    border-top-left-radius: 56px;
+    border-top-right-radius: 56px;
+    text-align: left;
+    position: absolute;
+    width: 100%;
+    bottom: 88px;
+    left: 0%;
+    height: 112px;
+}
+
+.info-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-icon {
+    font-size: 0.8em;
+    margin-left: 5px;
+    color: #555;
+    cursor: pointer;
+}
+
+.tips-section {
+    background-color: #ffffff;
+    margin: 40px 0 20px 0;
+    padding: 15px;
+    text-align: center;
+}
+
+.tips-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.edit-icon {
+    font-size: 1em;
+    margin-left: 5px;
+    color: #555;
+    cursor: pointer;
+}
+
+p {
+    font-size: 0.9em;
+    color: #666;
+    line-height: 1.6;
+}
+
+.linha {
+    left: 163px;
+    width: 833px;
+    position: relative;
+    top: 11px;
+    border: none;
+    border-top: 1px solid #797777;
+    margin: 38px 0;
+}
+
+.p{
+    margin-top: 45px;
+    font-size: 18px;
+}
+
+.rode{
+       transform: rotate(168deg);
+}
+
+.info-icon {
+    font-size: 0.8em;
+    margin-left: 5px;
+    color: #555;
+    cursor: pointer;
+}
+
+
+.tips-section {
+    background-color: #ffffff;
+    margin: 40px 0 20px 0;
+    padding: 15px;
+    text-align: center;
+}
+
+
+.tips-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.edit-icon {
+    font-size: 1em;
+    margin-left: 5px;
+    color: #555;
+    cursor: pointer;
+}
+
+
+p {
+    font-size: 0.9em;
+    color: #666;
+    line-height: 1.6;
+}
+
+
+.linha {
+    left: 163px;
+    width: 833px;
+    position: relative;
+    top: 11px;
+    border: none;
+    border-top: 1px solid #797777;
+    margin: 38px 0;
+}
+
+
+.p{
+    margin-top: 45px;
+    font-size: 18px;
+}
+
+
+.rode{
+       transform: rotate(168deg);
+}
+
+/* Estilo da PESQUISA da RECEITA */
+.area-pesquisa {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid #7e1208;
+    border-radius: 8px;
+}
+
+.botaopesquisa {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 30px;
+    padding: 5px 15px;
+    background-color: white;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.campo-pesquisa {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.icone-pesquisa {
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #000000;
+    cursor: pointer;
+}
+
+.ajeitar {
+    margin-top: 20px;
+}
+
+.receita-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 15px;
+    border: 2px solid #7e1208;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.imgprato {
+    width: 150px; /* ajuste conforme necessário */
+    height: auto;
+    border-radius: 10px; /* Borda arredondada */
+    border: 2px solid #7e1208; /* Cor da borda */
+}
+
+.info-receita {
+    flex: 1;
+}
+
+.info-receita h3 {
+    font-size: 1.5rem;
+    color: #7e1208;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icone-toggle {
+    cursor: pointer;
+}
+
+.info-receita p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+    max-width: 500px;
+}
+
+.receita-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 15px;
+    border: 2px solid #7e1208;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.info-receita {
+    flex: 1;
+}
+
+.info-receita h3 {
+    font-size: 1.5rem;
+    color: #7e1208;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.info-receita p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+    max-width: 500px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #050505;
+    margin: 20px 0;
+}
