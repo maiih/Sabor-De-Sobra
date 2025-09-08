@@ -1,4 +1,4 @@
-# 🍲 Sabor de Sobra
+# <p align="center">🍲 Sabor de Sobra</p>
 
 <p align="center">
   <strong>Uma plataforma inteligente para transformar as sobras da sua geladeira em receitas incríveis e combater o desperdício de alimentos!</strong>
