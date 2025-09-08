@@ -43,8 +43,8 @@ A lista de tecnologias principais usadas no projeto:
 Para rodar este projeto localmente, siga os passos:
 
 1.  Clone o repositório: `git clone https://github.com/maiih/sabor-de-sobra.git` (Lembre-se de criar o repositório com esse nome!)
-2.  Importe o banco de dados que está no arquivo `database.sql` (ou o nome que você usou) para o seu MySQL Workbench.
-3.  Configure a conexão com o banco de dados no arquivo `config.php` (ou onde estiver sua configuração).
+2.  Importe o banco de dados que está no arquivo `sabordesobra` para o seu MySQL Workbench.
+3.  Configure a conexão com o banco de dados no arquivo `conexao.php` (ou onde estiver sua configuração).
 4.  Use um servidor local como XAMPP ou WAMP e coloque a pasta do projeto dentro de `htdocs`.
 5.  Abra o navegador e acesse `http://localhost/sabor-de-sobra`.
 
