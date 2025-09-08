@@ -55,5 +55,5 @@ Para rodar este projeto localmente, siga os passos:
 Projeto desenvolvido com muita colaboração e café!
 
 * **Maikelen Pasquali** - ([@maiih](https://github.com/maiih))
-* **Maria Fernanda da Rocha** - ([@maria](https://github.com/))
+* **Maria Fernanda da Rocha** - ([@Nandinhaweasley](https://github.com/Nandinhaweasley))
 * **Luana Cristine Buss da Silva** - ([@Luana659](https://github.com/Luana659))
